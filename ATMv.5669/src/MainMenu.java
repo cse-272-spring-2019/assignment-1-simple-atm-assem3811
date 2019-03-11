@@ -19,9 +19,8 @@ public class MainMenu extends JFrame {
 	
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
+	
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -35,9 +34,7 @@ public class MainMenu extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	
 	
 	BankAccount balance;
 	

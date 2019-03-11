@@ -18,9 +18,8 @@ public class DepositEntry extends JFrame {
 	private JPanel contentPane;
 	private JTextField textField;
 
-	/**
-	 * Launch the application.
-	 */
+	
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -34,9 +33,7 @@ public class DepositEntry extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	
 	
 	BankAccount service = new BankAccount();
 	

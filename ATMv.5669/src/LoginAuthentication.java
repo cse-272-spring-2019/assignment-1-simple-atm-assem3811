@@ -30,18 +30,15 @@ public class LoginAuthentication {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	
 	BankAccount service = new BankAccount();
 	public LoginAuthentication() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	
+	
 	private void initialize() {
 		frmJavaBank = new JFrame();
 		frmJavaBank.setTitle("Java Bank");

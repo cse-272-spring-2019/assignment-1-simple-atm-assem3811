@@ -14,9 +14,8 @@ public class MyHistory extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
+	
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -30,9 +29,7 @@ public class MyHistory extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	
 	
 	BankAccount service = new BankAccount();
 	int index = 0;
